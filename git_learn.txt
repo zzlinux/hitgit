@@ -3,3 +3,4 @@
 3.git status  git diff
 4.git log	git reset --hard commit_id	git reflog
 5.git checkout -- file	git reset --HEAD filename
+6.git remote add origin git@github.com:zzlinux/hitgit.git

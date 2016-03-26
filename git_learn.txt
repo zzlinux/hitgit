@@ -1,0 +1,4 @@
+１．git　init 　git 初始化
+2.git add file    git commit -m 
+3.git status  git diff
+4.git log	git reset --hard commit_id	git reflog

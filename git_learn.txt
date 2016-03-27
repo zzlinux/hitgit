@@ -17,3 +17,4 @@
 17.git push origin dev
 18.git checkout -b dev origin/dev
 19.git branch --set-upstream branch-name origin/branch-name
+20.git tag <name>  git tag -a <name> -m git tag -s <name> -m

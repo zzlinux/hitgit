@@ -7,3 +7,6 @@
 7.git push -u origin master
 8.git push origin master
 9.git clone from github
+10.git checkout -b new branch
+11.git branch new branch	git checkout new branch 
+12.git merge dev	git branch -d new branch

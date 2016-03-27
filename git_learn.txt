@@ -13,3 +13,6 @@
 13.git merge --no-ff -m "merge with no-ff"
 14.conflict is fixed
 15.git stash
+16.git push origin dev
+17.git checkout -b dev origin/dev
+18.git branch --set-upstream branch-name origin/branch-name

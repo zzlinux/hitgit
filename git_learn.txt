@@ -10,14 +10,6 @@
 10.git checkout -b new branch
 11.git branch new branch	git checkout new branch 
 12.git merge dev	git branch -d new branch
-<<<<<<< HEAD
-<<<<<<< HEAD
 13.conflict fixed
 14.git merge --no-ff -m "merge with no-ff"
-=======
->>>>>>> dev
-=======
-13.git merge --no-ff -m "merge with no-ff"
-14.conflict fixed
 15.hello word
->>>>>>> dev

@@ -11,3 +11,4 @@
 11.git branch new branch	git checkout new branch 
 12.git merge dev	git branch -d new branch
 13.git merge --no-ff -m "merge with no-ff"
+14.conflict fixed

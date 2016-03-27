@@ -13,7 +13,11 @@
 <<<<<<< HEAD
 13.git merge --no-ff -m "merge with no-ff"
 14.conflict fixed
+<<<<<<< HEAD
 =======
 13.git merge --no-ff -m "merge with no-ff"
 14.conflict fixed
+>>>>>>> dev
+=======
+15.hope conflice fixed
 >>>>>>> dev

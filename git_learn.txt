@@ -14,3 +14,6 @@
 14.conflict is fixed
 15.git stash
 16.git pull
+17.git push origin dev
+18.git checkout -b dev origin/dev
+19.git branch --set-upstream branch-name origin/branch-name

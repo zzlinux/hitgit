@@ -24,7 +24,7 @@ var d_posXY=new Array(
 		[300,150],
 		[0,300],
 		[150,300],
-		[300,300],
+		[300,300]
 		);
 d[1]=1;d[2]=2;d[3]=3;d[4]=4;d[5]=5;d[6]=6;d[7]=7;d[8]=8;d[9]=0;
 
@@ -51,7 +51,7 @@ function move(id){
 		}
 	}
 
-	if(finish_flag==ture){
+	if(finish_flag==true){
 		if(!pause)
 			start();
 		alert("congratulation");
@@ -61,7 +61,7 @@ function whereCanTo(cur_div){
 	var j=0;
 	var move_flag=false;
 	for(j=0;j<d_direct[cur_div].length;++j){
-		if( d[ d_direc[cur_div][j]] ==0){
+		if( d[ d_direct[cur_div][j]] ==0){
 			move_flag=true;
 		}	break;
 	}
@@ -76,16 +76,15 @@ function timer(){
 	time+=1;
 	var min=parseInt(time/60);
 	var sec=time%60;
-	document.getElementById("timer").innerHtml=min+"分"+sec"秒";
+	document.getElementById("timer").innerHTML=min+"分"+sec+"秒";
 }
-
 function start(){
-	if(pause){
-		document.getElementById("start").innerHtml="暂停";
+   	if(pause){
+		document.getElementById("start").innerHTML="暂停";
 		pause=false;
 		set_timer=setInterval(timer,1000);
 	}else{
-		document.getElementById("start").innerHtml="开始";
+		document.getElementById("start").innerHTML="开始";
 		pause=true;
 		clearInterval(set_timer);
 	}
